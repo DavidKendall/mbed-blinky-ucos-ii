@@ -1,0 +1,740 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_CFG_MODULE_PRESENT	lib/uCOS-II/src/app_cfg.h	34;"	d
+APP_CFG_TASK_START_PRIO	lib/uCOS-II/src/app_cfg.h	49;"	d
+APP_CFG_TASK_START_STK_SIZE	lib/uCOS-II/src/app_cfg.h	61;"	d
+APP_TASK_LED1_PRIO	src/main.cpp	/^  APP_TASK_LED1_PRIO = 4,$/;"	e	enum:__anon1	file:
+APP_TASK_LED1_STK_SIZE	src/main.cpp	22;"	d	file:
+APP_TASK_LED2_PRIO	src/main.cpp	/^  APP_TASK_LED2_PRIO$/;"	e	enum:__anon1	file:
+APP_TASK_LED2_STK_SIZE	src/main.cpp	23;"	d	file:
+APP_TRACE	lib/uCOS-II/src/app_cfg.h	83;"	d
+APP_TRACE_DBG	lib/uCOS-II/src/app_cfg.h	89;"	d
+APP_TRACE_INFO	lib/uCOS-II/src/app_cfg.h	88;"	d
+APP_TRACE_LEVEL	lib/uCOS-II/src/app_cfg.h	82;"	d
+BOOLEAN	lib/uCOS-II/src/os_cpu.h	/^typedef unsigned char  BOOLEAN;$/;"	t
+CPU_STK	lib/uCOS-II/src/os_cpu_c.c	/^typedef  INT32U            CPU_STK;  \/* QL added: Defines CPU stack data type.              *\/$/;"	t	file:
+DEF_DISABLED	lib/uCOS-II/src/os_cpu_c.c	585;"	d	file:
+DEF_DISABLED	lib/uCOS-II/src/os_cpu_c.c	60;"	d	file:
+DEF_ENABLED	lib/uCOS-II/src/os_cpu_c.c	586;"	d	file:
+DEF_ENABLED	lib/uCOS-II/src/os_cpu_c.c	61;"	d	file:
+FP32	lib/uCOS-II/src/os_cpu.h	/^typedef float          FP32;                     \/* Single precision floating point                    *\/$/;"	t
+FP64	lib/uCOS-II/src/os_cpu.h	/^typedef double         FP64;                     \/* Double precision floating point                    *\/$/;"	t
+INT16S	lib/uCOS-II/src/os_cpu.h	/^typedef signed   short INT16S;                   \/* Signed   16 bit quantity                           *\/$/;"	t
+INT16U	lib/uCOS-II/src/os_cpu.h	/^typedef unsigned short INT16U;                   \/* Unsigned 16 bit quantity                           *\/$/;"	t
+INT32S	lib/uCOS-II/src/os_cpu.h	/^typedef signed   int   INT32S;                   \/* Signed   32 bit quantity                           *\/$/;"	t
+INT32U	lib/uCOS-II/src/os_cpu.h	/^typedef unsigned int   INT32U;                   \/* Unsigned 32 bit quantity                           *\/$/;"	t
+INT8S	lib/uCOS-II/src/os_cpu.h	/^typedef signed   char  INT8S;                    \/* Signed    8 bit quantity                           *\/$/;"	t
+INT8U	lib/uCOS-II/src/os_cpu.h	/^typedef unsigned char  INT8U;                    \/* Unsigned  8 bit quantity                           *\/$/;"	t
+IPERF_TRACE	lib/uCOS-II/src/app_cfg.h	86;"	d
+IPERF_TRACE_LEVEL	lib/uCOS-II/src/app_cfg.h	85;"	d
+MICRIUM_SOURCE	lib/uCOS-II/src/os_core.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_flag.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_mbox.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_mem.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_mutex.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_q.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_sem.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_task.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_time.c	24;"	d	file:
+MICRIUM_SOURCE	lib/uCOS-II/src/os_tmr.c	25;"	d	file:
+OSAddr	lib/uCOS-II/src/ucos_ii.h	/^    void   *OSAddr;                         \/* Ptr to the beginning address of the memory partition    *\/$/;"	m	struct:os_mem_data
+OSBlkSize	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSBlkSize;                      \/* Size (in bytes) of each memory block                    *\/$/;"	m	struct:os_mem_data
+OSCPUUsage	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSCPUUsage;               \/* Percentage of CPU used                          *\/$/;"	v
+OSCnt	lib/uCOS-II/src/ucos_ii.h	/^    INT16U  OSCnt;                          \/* Semaphore count                                         *\/$/;"	m	struct:os_sem_data
+OSCtxSw	lib/uCOS-II/src/os_cpu_a.s	/^OSCtxSw:$/;"	l
+OSCtxSwCtr	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT32U            OSCtxSwCtr;               \/* Counter of number of context switches           *\/$/;"	v
+OSDataSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSDataSize = sizeof(OSCtxSwCtr)$/;"	v
+OSDebugEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               \/* Debug constants are defined below   *\/$/;"	v
+OSDebugInit	lib/uCOS-II/src/os_dbg.c	/^void  OSDebugInit (void)$/;"	f
+OSEndiannessTest	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               \/* Variable to test CPU endianness     *\/$/;"	v
+OSEventCnt	lib/uCOS-II/src/ucos_ii.h	/^    INT16U   OSEventCnt;                    \/* Semaphore Count (not used if other EVENT type)          *\/$/;"	m	struct:os_event
+OSEventEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventEn           = OS_EVENT_EN;$/;"	v
+OSEventFreeList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_EVENT         *OSEventFreeList;          \/* Pointer to list of free EVENT control blocks    *\/$/;"	v
+OSEventGrp	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO        OSEventGrp;              \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_q_data
+OSEventGrp	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO  OSEventGrp;                    \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_event
+OSEventGrp	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO OSEventGrp;                     \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_mbox_data
+OSEventGrp	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO OSEventGrp;                     \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_mutex_data
+OSEventGrp	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO OSEventGrp;                     \/* Group corresponding to tasks waiting for event to occur *\/$/;"	m	struct:os_sem_data
+OSEventMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventMax          = OS_MAX_EVENTS;             \/* Number of event control blocks      *\/$/;"	v
+OSEventMultiEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;$/;"	v
+OSEventName	lib/uCOS-II/src/ucos_ii.h	/^    INT8U   *OSEventName;$/;"	m	struct:os_event
+OSEventNameEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;$/;"	v
+OSEventNameGet	lib/uCOS-II/src/os_core.c	/^INT8U  OSEventNameGet (OS_EVENT   *pevent,$/;"	f
+OSEventNameSet	lib/uCOS-II/src/os_core.c	/^void  OSEventNameSet (OS_EVENT  *pevent,$/;"	f
+OSEventPendMulti	lib/uCOS-II/src/os_core.c	/^INT16U  OSEventPendMulti (OS_EVENT  **pevents_pend,$/;"	f
+OSEventPtr	lib/uCOS-II/src/ucos_ii.h	/^    void    *OSEventPtr;                    \/* Pointer to message or queue structure                   *\/$/;"	m	struct:os_event
+OSEventSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventSize         = 0u;$/;"	v
+OSEventSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventSize         = sizeof(OS_EVENT);          \/* Size in Bytes of OS_EVENT           *\/$/;"	v
+OSEventTbl	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO        OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur         *\/$/;"	m	struct:os_q_data
+OSEventTbl	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO  OSEventTbl[OS_EVENT_TBL_SIZE]; \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_event
+OSEventTbl	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_mbox_data
+OSEventTbl	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_mutex_data
+OSEventTbl	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO OSEventTbl[OS_EVENT_TBL_SIZE];  \/* List of tasks waiting for event to occur                *\/$/;"	m	struct:os_sem_data
+OSEventTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_EVENT          OSEventTbl[OS_MAX_EVENTS];\/* Table of EVENT control blocks                   *\/$/;"	v
+OSEventTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventTblSize      = 0u;$/;"	v
+OSEventTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        \/* Size of OSEventTbl[] in bytes       *\/$/;"	v
+OSEventType	lib/uCOS-II/src/ucos_ii.h	/^    INT8U    OSEventType;                   \/* Type of event control block (see OS_EVENT_TYPE_xxxx)    *\/$/;"	m	struct:os_event
+OSFlagAccept	lib/uCOS-II/src/os_flag.c	/^OS_FLAGS  OSFlagAccept (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagCreate	lib/uCOS-II/src/os_flag.c	/^OS_FLAG_GRP  *OSFlagCreate (OS_FLAGS  flags,$/;"	f
+OSFlagDel	lib/uCOS-II/src/os_flag.c	/^OS_FLAG_GRP  *OSFlagDel (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagEn            = OS_FLAG_EN;$/;"	v
+OSFlagFlags	lib/uCOS-II/src/ucos_ii.h	/^    OS_FLAGS      OSFlagFlags;              \/* 8, 16 or 32 bit flags                                   *\/$/;"	m	struct:os_flag_grp
+OSFlagFreeList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_FLAG_GRP      *OSFlagFreeList;           \/* Pointer to free list of event flag groups       *\/$/;"	v
+OSFlagGrpSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagGrpSize       = 0u;$/;"	v
+OSFlagGrpSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       \/* Size in Bytes of OS_FLAG_GRP        *\/$/;"	v
+OSFlagMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagMax           = OS_MAX_FLAGS;$/;"	v
+OSFlagName	lib/uCOS-II/src/ucos_ii.h	/^    INT8U        *OSFlagName;$/;"	m	struct:os_flag_grp
+OSFlagNameEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;$/;"	v
+OSFlagNameGet	lib/uCOS-II/src/os_flag.c	/^INT8U  OSFlagNameGet (OS_FLAG_GRP   *pgrp,$/;"	f
+OSFlagNameSet	lib/uCOS-II/src/os_flag.c	/^void  OSFlagNameSet (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagNodeFlagGrp	lib/uCOS-II/src/ucos_ii.h	/^    void         *OSFlagNodeFlagGrp;        \/* Pointer to Event Flag Group                             *\/$/;"	m	struct:os_flag_node
+OSFlagNodeFlags	lib/uCOS-II/src/ucos_ii.h	/^    OS_FLAGS      OSFlagNodeFlags;          \/* Event flag to wait on                                   *\/$/;"	m	struct:os_flag_node
+OSFlagNodeNext	lib/uCOS-II/src/ucos_ii.h	/^    void         *OSFlagNodeNext;           \/* Pointer to next     NODE in wait list                   *\/$/;"	m	struct:os_flag_node
+OSFlagNodePrev	lib/uCOS-II/src/ucos_ii.h	/^    void         *OSFlagNodePrev;           \/* Pointer to previous NODE in wait list                   *\/$/;"	m	struct:os_flag_node
+OSFlagNodeSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagNodeSize      = 0u;$/;"	v
+OSFlagNodeSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      \/* Size in Bytes of OS_FLAG_NODE       *\/$/;"	v
+OSFlagNodeTCB	lib/uCOS-II/src/ucos_ii.h	/^    void         *OSFlagNodeTCB;            \/* Pointer to TCB of waiting task                          *\/$/;"	m	struct:os_flag_node
+OSFlagNodeWaitType	lib/uCOS-II/src/ucos_ii.h	/^    INT8U         OSFlagNodeWaitType;       \/* Type of wait:                                           *\/$/;"	m	struct:os_flag_node
+OSFlagPend	lib/uCOS-II/src/os_flag.c	/^OS_FLAGS  OSFlagPend (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagPendGetFlagsRdy	lib/uCOS-II/src/os_flag.c	/^OS_FLAGS  OSFlagPendGetFlagsRdy (void)$/;"	f
+OSFlagPost	lib/uCOS-II/src/os_flag.c	/^OS_FLAGS  OSFlagPost (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagQuery	lib/uCOS-II/src/os_flag.c	/^OS_FLAGS  OSFlagQuery (OS_FLAG_GRP  *pgrp,$/;"	f
+OSFlagTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_FLAG_GRP       OSFlagTbl[OS_MAX_FLAGS];  \/* Table containing event flag groups              *\/$/;"	v
+OSFlagType	lib/uCOS-II/src/ucos_ii.h	/^    INT8U         OSFlagType;               \/* Should be set to OS_EVENT_TYPE_FLAG                     *\/$/;"	m	struct:os_flag_grp
+OSFlagWaitList	lib/uCOS-II/src/ucos_ii.h	/^    void         *OSFlagWaitList;           \/* Pointer to first NODE of task waiting on event flag     *\/$/;"	m	struct:os_flag_grp
+OSFlagWidth	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagWidth         = 0u;$/;"	v
+OSFlagWidth	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          \/* Width (in bytes) of OS_FLAGS        *\/$/;"	v
+OSFree	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSFree;                         \/* Number of free entries on the stack                     *\/$/;"	m	struct:os_stk_data
+OSFreeList	lib/uCOS-II/src/ucos_ii.h	/^    void   *OSFreeList;                     \/* Ptr to the beginning of the free list of memory blocks  *\/$/;"	m	struct:os_mem_data
+OSIdleCtr	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  volatile  INT32U  OSIdleCtr;                                 \/* Idle counter                   *\/$/;"	v
+OSIdleCtrMax	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT32U            OSIdleCtrMax;             \/* Max. value that idle ctr can take in 1 sec.     *\/$/;"	v
+OSIdleCtrRun	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT32U            OSIdleCtrRun;             \/* Val. reached by idle ctr at run time in 1 sec.  *\/$/;"	v
+OSInit	lib/uCOS-II/src/os_core.c	/^void  OSInit (void)$/;"	f
+OSInitHookBegin	lib/uCOS-II/src/os_cpu_c.c	/^void  OSInitHookBegin (void)$/;"	f
+OSInitHookEnd	lib/uCOS-II/src/os_cpu_c.c	/^void  OSInitHookEnd (void)$/;"	f
+OSIntCtxSw	lib/uCOS-II/src/os_cpu_a.s	/^OSIntCtxSw:$/;"	l
+OSIntEnter	lib/uCOS-II/src/os_core.c	/^void  OSIntEnter (void)$/;"	f
+OSIntExit	lib/uCOS-II/src/os_core.c	/^void  OSIntExit (void)$/;"	f
+OSIntNesting	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSIntNesting;             \/* Interrupt nesting level                         *\/$/;"	v
+OSLockNesting	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSLockNesting;            \/* Multitasking lock nesting level                 *\/$/;"	v
+OSLowestPrio	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSLowestPrio        = OS_LOWEST_PRIO;$/;"	v
+OSMboxAccept	lib/uCOS-II/src/os_mbox.c	/^void  *OSMboxAccept (OS_EVENT *pevent)$/;"	f
+OSMboxCreate	lib/uCOS-II/src/os_mbox.c	/^OS_EVENT  *OSMboxCreate (void *pmsg)$/;"	f
+OSMboxDel	lib/uCOS-II/src/os_mbox.c	/^OS_EVENT  *OSMboxDel (OS_EVENT  *pevent,$/;"	f
+OSMboxEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMboxEn            = OS_MBOX_EN;$/;"	v
+OSMboxPend	lib/uCOS-II/src/os_mbox.c	/^void  *OSMboxPend (OS_EVENT  *pevent,$/;"	f
+OSMboxPendAbort	lib/uCOS-II/src/os_mbox.c	/^INT8U  OSMboxPendAbort (OS_EVENT  *pevent,$/;"	f
+OSMboxPost	lib/uCOS-II/src/os_mbox.c	/^INT8U  OSMboxPost (OS_EVENT  *pevent,$/;"	f
+OSMboxPostOpt	lib/uCOS-II/src/os_mbox.c	/^INT8U  OSMboxPostOpt (OS_EVENT  *pevent,$/;"	f
+OSMboxQuery	lib/uCOS-II/src/os_mbox.c	/^INT8U  OSMboxQuery (OS_EVENT      *pevent,$/;"	f
+OSMemAddr	lib/uCOS-II/src/ucos_ii.h	/^    void   *OSMemAddr;                      \/* Pointer to beginning of memory partition                *\/$/;"	m	struct:os_mem
+OSMemBlkSize	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSMemBlkSize;                   \/* Size (in bytes) of each block of memory                 *\/$/;"	m	struct:os_mem
+OSMemCreate	lib/uCOS-II/src/os_mem.c	/^OS_MEM  *OSMemCreate (void   *addr,$/;"	f
+OSMemEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemEn             = OS_MEM_EN;$/;"	v
+OSMemFreeList	lib/uCOS-II/src/ucos_ii.h	/^    void   *OSMemFreeList;                  \/* Pointer to list of free memory blocks                   *\/$/;"	m	struct:os_mem
+OSMemFreeList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_MEM           *OSMemFreeList;            \/* Pointer to free list of memory partitions       *\/$/;"	v
+OSMemGet	lib/uCOS-II/src/os_mem.c	/^void  *OSMemGet (OS_MEM  *pmem,$/;"	f
+OSMemMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemMax            = OS_MAX_MEM_PART;           \/* Number of memory partitions         *\/$/;"	v
+OSMemNBlks	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSMemNBlks;                     \/* Total number of blocks in this partition                *\/$/;"	m	struct:os_mem
+OSMemNFree	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSMemNFree;                     \/* Number of memory blocks remaining in this partition     *\/$/;"	m	struct:os_mem
+OSMemName	lib/uCOS-II/src/ucos_ii.h	/^    INT8U  *OSMemName;                      \/* Memory partition name                                   *\/$/;"	m	struct:os_mem
+OSMemNameEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemNameEn         = OS_MEM_NAME_EN;$/;"	v
+OSMemNameGet	lib/uCOS-II/src/os_mem.c	/^INT8U  OSMemNameGet (OS_MEM   *pmem,$/;"	f
+OSMemNameSet	lib/uCOS-II/src/os_mem.c	/^void  OSMemNameSet (OS_MEM  *pmem,$/;"	f
+OSMemPut	lib/uCOS-II/src/os_mem.c	/^INT8U  OSMemPut (OS_MEM  *pmem,$/;"	f
+OSMemQuery	lib/uCOS-II/src/os_mem.c	/^INT8U  OSMemQuery (OS_MEM       *pmem,$/;"	f
+OSMemSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemSize           = 0u;$/;"	v
+OSMemSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemSize           = sizeof(OS_MEM);            \/* Mem. Partition header sine (bytes)  *\/$/;"	v
+OSMemTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_MEM            OSMemTbl[OS_MAX_MEM_PART];\/* Storage for memory partition manager            *\/$/;"	v
+OSMemTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemTblSize        = 0u;$/;"	v
+OSMemTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMemTblSize        = sizeof(OSMemTbl);$/;"	v
+OSMsg	lib/uCOS-II/src/ucos_ii.h	/^    void          *OSMsg;                   \/* Pointer to next message to be extracted from queue      *\/$/;"	m	struct:os_q_data
+OSMsg	lib/uCOS-II/src/ucos_ii.h	/^    void   *OSMsg;                          \/* Pointer to message in mailbox                           *\/$/;"	m	struct:os_mbox_data
+OSMutexAccept	lib/uCOS-II/src/os_mutex.c	/^BOOLEAN  OSMutexAccept (OS_EVENT  *pevent,$/;"	f
+OSMutexCreate	lib/uCOS-II/src/os_mutex.c	/^OS_EVENT  *OSMutexCreate (INT8U   prio,$/;"	f
+OSMutexDel	lib/uCOS-II/src/os_mutex.c	/^OS_EVENT  *OSMutexDel (OS_EVENT  *pevent,$/;"	f
+OSMutexEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSMutexEn           = OS_MUTEX_EN;$/;"	v
+OSMutexPCP	lib/uCOS-II/src/ucos_ii.h	/^    INT8U   OSMutexPCP;                     \/* Priority Ceiling Priority or 0xFF if PCP disabled       *\/$/;"	m	struct:os_mutex_data
+OSMutexPend	lib/uCOS-II/src/os_mutex.c	/^void  OSMutexPend (OS_EVENT  *pevent,$/;"	f
+OSMutexPost	lib/uCOS-II/src/os_mutex.c	/^INT8U  OSMutexPost (OS_EVENT *pevent)$/;"	f
+OSMutexQuery	lib/uCOS-II/src/os_mutex.c	/^INT8U  OSMutexQuery (OS_EVENT       *pevent,$/;"	f
+OSMutex_RdyAtPrio	lib/uCOS-II/src/os_mutex.c	/^static  void  OSMutex_RdyAtPrio (OS_TCB  *ptcb,$/;"	f	file:
+OSNBlks	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSNBlks;                        \/* Total number of blocks in the partition                 *\/$/;"	m	struct:os_mem_data
+OSNFree	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSNFree;                        \/* Number of memory blocks free                            *\/$/;"	m	struct:os_mem_data
+OSNMsgs	lib/uCOS-II/src/ucos_ii.h	/^    INT16U         OSNMsgs;                 \/* Number of messages in message queue                     *\/$/;"	m	struct:os_q_data
+OSNUsed	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSNUsed;                        \/* Number of memory blocks used                            *\/$/;"	m	struct:os_mem_data
+OSOwnerPrio	lib/uCOS-II/src/ucos_ii.h	/^    INT8U   OSOwnerPrio;                    \/* Mutex owner's task priority or 0xFF if no owner         *\/$/;"	m	struct:os_mutex_data
+OSPrioCur	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSPrioCur;                \/* Priority of current task                        *\/$/;"	v
+OSPrioHighRdy	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSPrioHighRdy;            \/* Priority of highest priority task               *\/$/;"	v
+OSPtrSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSPtrSize           = sizeof(void *);            \/* Size in Bytes of a pointer          *\/$/;"	v
+OSQAccept	lib/uCOS-II/src/os_q.c	/^void  *OSQAccept (OS_EVENT  *pevent,$/;"	f
+OSQCreate	lib/uCOS-II/src/os_q.c	/^OS_EVENT  *OSQCreate (void    **start,$/;"	f
+OSQDel	lib/uCOS-II/src/os_q.c	/^OS_EVENT  *OSQDel (OS_EVENT  *pevent,$/;"	f
+OSQEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSQEn               = OS_Q_EN;$/;"	v
+OSQEnd	lib/uCOS-II/src/ucos_ii.h	/^    void         **OSQEnd;                  \/* Ptr to end   of queue data                              *\/$/;"	m	struct:os_q
+OSQEntries	lib/uCOS-II/src/ucos_ii.h	/^    INT16U         OSQEntries;              \/* Current number of entries in the queue                  *\/$/;"	m	struct:os_q
+OSQFlush	lib/uCOS-II/src/os_q.c	/^INT8U  OSQFlush (OS_EVENT *pevent)$/;"	f
+OSQFreeList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_Q             *OSQFreeList;              \/* Pointer to list of free QUEUE control blocks    *\/$/;"	v
+OSQIn	lib/uCOS-II/src/ucos_ii.h	/^    void         **OSQIn;                   \/* Ptr to where next message will be inserted  in   the Q  *\/$/;"	m	struct:os_q
+OSQMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSQMax              = OS_MAX_QS;                 \/* Number of queues                    *\/$/;"	v
+OSQOut	lib/uCOS-II/src/ucos_ii.h	/^    void         **OSQOut;                  \/* Ptr to where next message will be extracted from the Q  *\/$/;"	m	struct:os_q
+OSQPend	lib/uCOS-II/src/os_q.c	/^void  *OSQPend (OS_EVENT  *pevent,$/;"	f
+OSQPendAbort	lib/uCOS-II/src/os_q.c	/^INT8U  OSQPendAbort (OS_EVENT  *pevent,$/;"	f
+OSQPost	lib/uCOS-II/src/os_q.c	/^INT8U  OSQPost (OS_EVENT  *pevent,$/;"	f
+OSQPostFront	lib/uCOS-II/src/os_q.c	/^INT8U  OSQPostFront (OS_EVENT  *pevent,$/;"	f
+OSQPostOpt	lib/uCOS-II/src/os_q.c	/^INT8U  OSQPostOpt (OS_EVENT  *pevent,$/;"	f
+OSQPtr	lib/uCOS-II/src/ucos_ii.h	/^    struct os_q   *OSQPtr;                  \/* Link to next queue control block in list of free blocks *\/$/;"	m	struct:os_q	typeref:struct:os_q::os_q
+OSQQuery	lib/uCOS-II/src/os_q.c	/^INT8U  OSQQuery (OS_EVENT  *pevent,$/;"	f
+OSQSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSQSize             = 0u;$/;"	v
+OSQSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSQSize             = sizeof(OS_Q);              \/* Size in bytes of OS_Q structure     *\/$/;"	v
+OSQSize	lib/uCOS-II/src/ucos_ii.h	/^    INT16U         OSQSize;                 \/* Size of message queue                                   *\/$/;"	m	struct:os_q_data
+OSQSize	lib/uCOS-II/src/ucos_ii.h	/^    INT16U         OSQSize;                 \/* Size of queue (maximum number of entries)               *\/$/;"	m	struct:os_q
+OSQStart	lib/uCOS-II/src/ucos_ii.h	/^    void         **OSQStart;                \/* Ptr to start of queue data                              *\/$/;"	m	struct:os_q
+OSQTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_Q              OSQTbl[OS_MAX_QS];        \/* Table of QUEUE control blocks                   *\/$/;"	v
+OSRdyGrp	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_PRIO           OSRdyGrp;                        \/* Ready list group                         *\/$/;"	v
+OSRdyTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_PRIO           OSRdyTbl[OS_RDY_TBL_SIZE];       \/* Table of tasks which are ready to run    *\/$/;"	v
+OSRdyTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSRdyTblSize        = OS_RDY_TBL_SIZE;           \/* Number of bytes in the ready table  *\/$/;"	v
+OSRunning	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  BOOLEAN           OSRunning;                       \/* Flag indicating that kernel is running   *\/$/;"	v
+OSSafetyCriticalStart	lib/uCOS-II/src/os_core.c	/^void  OSSafetyCriticalStart (void)$/;"	f
+OSSafetyCriticalStartFlag	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  BOOLEAN           OSSafetyCriticalStartFlag;$/;"	v
+OSSchedLock	lib/uCOS-II/src/os_core.c	/^void  OSSchedLock (void)$/;"	f
+OSSchedUnlock	lib/uCOS-II/src/os_core.c	/^void  OSSchedUnlock (void)$/;"	f
+OSSemAccept	lib/uCOS-II/src/os_sem.c	/^INT16U  OSSemAccept (OS_EVENT *pevent)$/;"	f
+OSSemCreate	lib/uCOS-II/src/os_sem.c	/^OS_EVENT  *OSSemCreate (INT16U cnt)$/;"	f
+OSSemDel	lib/uCOS-II/src/os_sem.c	/^OS_EVENT  *OSSemDel (OS_EVENT  *pevent,$/;"	f
+OSSemEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSSemEn             = OS_SEM_EN;$/;"	v
+OSSemPend	lib/uCOS-II/src/os_sem.c	/^void  OSSemPend (OS_EVENT  *pevent,$/;"	f
+OSSemPendAbort	lib/uCOS-II/src/os_sem.c	/^INT8U  OSSemPendAbort (OS_EVENT  *pevent,$/;"	f
+OSSemPost	lib/uCOS-II/src/os_sem.c	/^INT8U  OSSemPost (OS_EVENT *pevent)$/;"	f
+OSSemQuery	lib/uCOS-II/src/os_sem.c	/^INT8U  OSSemQuery (OS_EVENT     *pevent,$/;"	f
+OSSemSet	lib/uCOS-II/src/os_sem.c	/^void  OSSemSet (OS_EVENT  *pevent,$/;"	f
+OSStart	lib/uCOS-II/src/os_core.c	/^void  OSStart (void)$/;"	f
+OSStartHang	lib/uCOS-II/src/os_cpu_a.s	/^OSStartHang:$/;"	l
+OSStartHighRdy	lib/uCOS-II/src/os_cpu_a.s	/^OSStartHighRdy:$/;"	l
+OSStatInit	lib/uCOS-II/src/os_core.c	/^void  OSStatInit (void)$/;"	f
+OSStatRdy	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  BOOLEAN           OSStatRdy;                \/* Flag indicating that the statistic task is rdy  *\/$/;"	v
+OSStkWidth	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSStkWidth          = sizeof(OS_STK);            \/* Size in Bytes of a stack entry      *\/$/;"	v
+OSTCBBitX	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO          OSTCBBitX;             \/* Bit mask to access bit position in ready table          *\/$/;"	m	struct:os_tcb
+OSTCBBitY	lib/uCOS-II/src/ucos_ii.h	/^    OS_PRIO          OSTCBBitY;             \/* Bit mask to access bit position in ready group          *\/$/;"	m	struct:os_tcb
+OSTCBCtxSwCtr	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBCtxSwCtr;         \/* Number of time the task was switched in                 *\/$/;"	m	struct:os_tcb
+OSTCBCur	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBCur;                        \/* Pointer to currently running TCB         *\/$/;"	v
+OSTCBCyclesStart	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBCyclesStart;      \/* Snapshot of cycle counter at start of task resumption   *\/$/;"	m	struct:os_tcb
+OSTCBCyclesTot	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBCyclesTot;        \/* Total number of clock cycles the task has been running  *\/$/;"	m	struct:os_tcb
+OSTCBDelReq	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTCBDelReq;           \/* Indicates whether a task needs to delete itself         *\/$/;"	m	struct:os_tcb
+OSTCBDly	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBDly;              \/* Nbr ticks to delay task or, timeout waiting for event   *\/$/;"	m	struct:os_tcb
+OSTCBEventMultiPtr	lib/uCOS-II/src/ucos_ii.h	/^    OS_EVENT       **OSTCBEventMultiPtr;    \/* Pointer to multiple event control blocks                *\/$/;"	m	struct:os_tcb
+OSTCBEventPtr	lib/uCOS-II/src/ucos_ii.h	/^    OS_EVENT        *OSTCBEventPtr;         \/* Pointer to          event control block                 *\/$/;"	m	struct:os_tcb
+OSTCBExtPtr	lib/uCOS-II/src/ucos_ii.h	/^    void            *OSTCBExtPtr;           \/* Pointer to user definable data for TCB extension        *\/$/;"	m	struct:os_tcb
+OSTCBFlagNode	lib/uCOS-II/src/ucos_ii.h	/^    OS_FLAG_NODE    *OSTCBFlagNode;         \/* Pointer to event flag node                              *\/$/;"	m	struct:os_tcb
+OSTCBFlagsRdy	lib/uCOS-II/src/ucos_ii.h	/^    OS_FLAGS         OSTCBFlagsRdy;         \/* Event flags that made task ready to run                 *\/$/;"	m	struct:os_tcb
+OSTCBFreeList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBFreeList;                   \/* Pointer to list of free TCBs             *\/$/;"	v
+OSTCBHighRdy	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBHighRdy;                    \/* Pointer to highest priority TCB R-to-R   *\/$/;"	v
+OSTCBId	lib/uCOS-II/src/ucos_ii.h	/^    INT16U           OSTCBId;               \/* Task ID (0..65535)                                      *\/$/;"	m	struct:os_tcb
+OSTCBInitHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTCBInitHook (OS_TCB *ptcb)$/;"	f
+OSTCBList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBList;                       \/* Pointer to doubly linked list of TCBs    *\/$/;"	v
+OSTCBMsg	lib/uCOS-II/src/ucos_ii.h	/^    void            *OSTCBMsg;              \/* Message received from OSMboxPost() or OSQPost()         *\/$/;"	m	struct:os_tcb
+OSTCBNext	lib/uCOS-II/src/ucos_ii.h	/^    struct os_tcb   *OSTCBNext;             \/* Pointer to next     TCB in the TCB list                 *\/$/;"	m	struct:os_tcb	typeref:struct:os_tcb::os_tcb
+OSTCBOpt	lib/uCOS-II/src/ucos_ii.h	/^    INT16U           OSTCBOpt;              \/* Task options as passed by OSTaskCreateExt()             *\/$/;"	m	struct:os_tcb
+OSTCBPrev	lib/uCOS-II/src/ucos_ii.h	/^    struct os_tcb   *OSTCBPrev;             \/* Pointer to previous TCB in the TCB list                 *\/$/;"	m	struct:os_tcb	typeref:struct:os_tcb::os_tcb
+OSTCBPrio	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTCBPrio;             \/* Task priority (0 == highest)                            *\/$/;"	m	struct:os_tcb
+OSTCBPrioTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TCB           *OSTCBPrioTbl[OS_LOWEST_PRIO + 1u];    \/* Table of pointers to created TCBs   *\/$/;"	v
+OSTCBPrioTblMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTCBPrioTblMax     = OS_LOWEST_PRIO + 1u;       \/* Number of entries in OSTCBPrioTbl[] *\/$/;"	v
+OSTCBRegTbl	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBRegTbl[OS_TASK_REG_TBL_SIZE];$/;"	m	struct:os_tcb
+OSTCBSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTCBSize           = sizeof(OS_TCB);            \/* Size in Bytes of OS_TCB             *\/$/;"	v
+OSTCBStat	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTCBStat;             \/* Task      status                                        *\/$/;"	m	struct:os_tcb
+OSTCBStatPend	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTCBStatPend;         \/* Task PEND status                                        *\/$/;"	m	struct:os_tcb
+OSTCBStkBase	lib/uCOS-II/src/ucos_ii.h	/^    OS_STK          *OSTCBStkBase;          \/* Pointer to the beginning of the task stack              *\/$/;"	m	struct:os_tcb
+OSTCBStkBottom	lib/uCOS-II/src/ucos_ii.h	/^    OS_STK          *OSTCBStkBottom;        \/* Pointer to bottom of stack                              *\/$/;"	m	struct:os_tcb
+OSTCBStkPtr	lib/uCOS-II/src/ucos_ii.h	/^    OS_STK          *OSTCBStkPtr;           \/* Pointer to current top of stack                         *\/$/;"	m	struct:os_tcb
+OSTCBStkSize	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBStkSize;          \/* Size of task stack (in number of stack elements)        *\/$/;"	m	struct:os_tcb
+OSTCBStkUsed	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTCBStkUsed;          \/* Number of bytes used from the stack                     *\/$/;"	m	struct:os_tcb
+OSTCBTLSTbl	lib/uCOS-II/src/ucos_ii.h	/^    OS_TLS           OSTCBTLSTbl[OS_TLS_TBL_SIZE];$/;"	m	struct:os_tcb
+OSTCBTaskName	lib/uCOS-II/src/ucos_ii.h	/^    INT8U           *OSTCBTaskName;$/;"	m	struct:os_tcb
+OSTCBTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TCB            OSTCBTbl[OS_MAX_TASKS + OS_N_SYS_TASKS];   \/* Table of TCBs                  *\/$/;"	v
+OSTCBX	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTCBX;                \/* Bit position in group  corresponding to task priority   *\/$/;"	m	struct:os_tcb
+OSTCBY	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTCBY;                \/* Index into ready table corresponding to task priority   *\/$/;"	m	struct:os_tcb
+OSTaskChangePrio	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskChangePrio (INT8U  oldprio,$/;"	f
+OSTaskCreate	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskCreate (void   (*task)(void *p_arg),$/;"	f
+OSTaskCreateEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskCreateEn      = OS_TASK_CREATE_EN;$/;"	v
+OSTaskCreateExt	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskCreateExt (void   (*task)(void *p_arg),$/;"	f
+OSTaskCreateExtEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskCreateExtEn   = OS_TASK_CREATE_EXT_EN;$/;"	v
+OSTaskCreateHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTaskCreateHook (OS_TCB *ptcb)$/;"	f
+OSTaskCtr	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSTaskCtr;                       \/* Number of tasks created                  *\/$/;"	v
+OSTaskDel	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskDel (INT8U prio)$/;"	f
+OSTaskDelEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskDelEn         = OS_TASK_DEL_EN;$/;"	v
+OSTaskDelHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTaskDelHook (OS_TCB *ptcb)$/;"	f
+OSTaskDelReq	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskDelReq (INT8U prio)$/;"	f
+OSTaskIdleHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTaskIdleHook (void)$/;"	f
+OSTaskIdleStk	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_STK            OSTaskIdleStk[OS_TASK_IDLE_STK_SIZE];      \/* Idle task stack                *\/$/;"	v
+OSTaskIdleStkSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskIdleStkSize   = OS_TASK_IDLE_STK_SIZE;$/;"	v
+OSTaskMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskMax           = OS_MAX_TASKS + OS_N_SYS_TASKS; \/* Total max. number of tasks      *\/$/;"	v
+OSTaskNameEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskNameEn        = OS_TASK_NAME_EN;$/;"	v
+OSTaskNameGet	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskNameGet (INT8U    prio,$/;"	f
+OSTaskNameSet	lib/uCOS-II/src/os_task.c	/^void  OSTaskNameSet (INT8U   prio,$/;"	f
+OSTaskProfileEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskProfileEn     = OS_TASK_PROFILE_EN;$/;"	v
+OSTaskQuery	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskQuery (INT8U    prio,$/;"	f
+OSTaskRegGet	lib/uCOS-II/src/os_task.c	/^INT32U  OSTaskRegGet (INT8U   prio,$/;"	f
+OSTaskRegGetID	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskRegGetID (INT8U  *perr)$/;"	f
+OSTaskRegNextAvailID	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSTaskRegNextAvailID;     \/* Next available Task register ID                 *\/$/;"	v
+OSTaskRegSet	lib/uCOS-II/src/os_task.c	/^void  OSTaskRegSet (INT8U    prio,$/;"	f
+OSTaskRegTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskRegTblSize    = OS_TASK_REG_TBL_SIZE;$/;"	v
+OSTaskResume	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskResume (INT8U prio)$/;"	f
+OSTaskReturnHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTaskReturnHook (OS_TCB  *ptcb)$/;"	f
+OSTaskStatEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskStatEn        = OS_TASK_STAT_EN;$/;"	v
+OSTaskStatHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTaskStatHook (void)$/;"	f
+OSTaskStatStk	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_STK            OSTaskStatStk[OS_TASK_STAT_STK_SIZE];      \/* Statistics task stack          *\/$/;"	v
+OSTaskStatStkChkEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskStatStkChkEn  = OS_TASK_STAT_STK_CHK_EN;$/;"	v
+OSTaskStatStkSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskStatStkSize   = OS_TASK_STAT_STK_SIZE;$/;"	v
+OSTaskStkChk	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskStkChk (INT8U         prio,$/;"	f
+OSTaskStkInit	lib/uCOS-II/src/os_cpu_c.c	/^OS_STK *OSTaskStkInit (void (*task)(void *p_arg), void *p_arg, OS_STK *ptos, INT16U opt)$/;"	f
+OSTaskSuspend	lib/uCOS-II/src/os_task.c	/^INT8U  OSTaskSuspend (INT8U prio)$/;"	f
+OSTaskSwHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTaskSwHook (void)$/;"	f
+OSTaskSwHookEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTaskSwHookEn      = OS_TASK_SW_HOOK_EN;$/;"	v
+OSTickStepState	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT8U             OSTickStepState;          \/* Indicates the state of the tick step feature    *\/$/;"	v
+OSTicksPerSec	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTicksPerSec       = OS_TICKS_PER_SEC;$/;"	v
+OSTime	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  volatile  INT32U  OSTime;                   \/* Current value of system time (in ticks)         *\/$/;"	v
+OSTimeDly	lib/uCOS-II/src/os_time.c	/^void  OSTimeDly (INT32U ticks)$/;"	f
+OSTimeDlyHMSM	lib/uCOS-II/src/os_time.c	/^INT8U  OSTimeDlyHMSM (INT8U   hours,$/;"	f
+OSTimeDlyResume	lib/uCOS-II/src/os_time.c	/^INT8U  OSTimeDlyResume (INT8U prio)$/;"	f
+OSTimeGet	lib/uCOS-II/src/os_time.c	/^INT32U  OSTimeGet (void)$/;"	f
+OSTimeSet	lib/uCOS-II/src/os_time.c	/^void  OSTimeSet (INT32U ticks)$/;"	f
+OSTimeTick	lib/uCOS-II/src/os_core.c	/^void  OSTimeTick (void)$/;"	f
+OSTimeTickHook	lib/uCOS-II/src/os_cpu_c.c	/^void  OSTimeTickHook (void)$/;"	f
+OSTimeTickHookEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTimeTickHookEn    = OS_TIME_TICK_HOOK_EN;$/;"	v
+OSTmrCallback	lib/uCOS-II/src/ucos_ii.h	/^    OS_TMR_CALLBACK  OSTmrCallback;         \/* Function to call when timer expires                     *\/$/;"	m	struct:os_tmr
+OSTmrCallbackArg	lib/uCOS-II/src/ucos_ii.h	/^    void            *OSTmrCallbackArg;      \/* Argument to pass to function when timer expires         *\/$/;"	m	struct:os_tmr
+OSTmrCfgMax	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrCfgMax         = OS_TMR_CFG_MAX;$/;"	v
+OSTmrCfgNameEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrCfgNameEn      = OS_TMR_CFG_NAME_EN;$/;"	v
+OSTmrCfgTicksPerSec	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrCfgTicksPerSec = OS_TMR_CFG_TICKS_PER_SEC;$/;"	v
+OSTmrCfgWheelSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrCfgWheelSize   = OS_TMR_CFG_WHEEL_SIZE;$/;"	v
+OSTmrCreate	lib/uCOS-II/src/os_tmr.c	/^OS_TMR  *OSTmrCreate (INT32U           dly,$/;"	f
+OSTmrCtr	lib/uCOS-II/src/os_cpu_c.c	/^static  INT16U  OSTmrCtr;$/;"	v	file:
+OSTmrDel	lib/uCOS-II/src/os_tmr.c	/^BOOLEAN  OSTmrDel (OS_TMR  *ptmr,$/;"	f
+OSTmrDly	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTmrDly;              \/* Delay time before periodic update starts                *\/$/;"	m	struct:os_tmr
+OSTmrEn	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrEn             = OS_TMR_EN;$/;"	v
+OSTmrEntries	lib/uCOS-II/src/ucos_ii.h	/^    INT16U           OSTmrEntries;$/;"	m	struct:os_tmr_wheel
+OSTmrFirst	lib/uCOS-II/src/ucos_ii.h	/^    OS_TMR          *OSTmrFirst;            \/* Pointer to first timer in linked list                   *\/$/;"	m	struct:os_tmr_wheel
+OSTmrFree	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT16U            OSTmrFree;                \/* Number of free entries in the timer pool        *\/$/;"	v
+OSTmrFreeList	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TMR           *OSTmrFreeList;            \/* Pointer to free list of timers                  *\/$/;"	v
+OSTmrMatch	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTmrMatch;            \/* Timer expires when OSTmrTime == OSTmrMatch              *\/$/;"	m	struct:os_tmr
+OSTmrName	lib/uCOS-II/src/ucos_ii.h	/^    INT8U           *OSTmrName;             \/* Name to give the timer                                  *\/$/;"	m	struct:os_tmr
+OSTmrNameGet	lib/uCOS-II/src/os_tmr.c	/^INT8U  OSTmrNameGet (OS_TMR   *ptmr,$/;"	f
+OSTmrNext	lib/uCOS-II/src/ucos_ii.h	/^    void            *OSTmrNext;             \/* Double link list pointers                               *\/$/;"	m	struct:os_tmr
+OSTmrOpt	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTmrOpt;              \/* Options (see OS_TMR_OPT_xxx)                            *\/$/;"	m	struct:os_tmr
+OSTmrPeriod	lib/uCOS-II/src/ucos_ii.h	/^    INT32U           OSTmrPeriod;           \/* Period to repeat timer                                  *\/$/;"	m	struct:os_tmr
+OSTmrPrev	lib/uCOS-II/src/ucos_ii.h	/^    void            *OSTmrPrev;$/;"	m	struct:os_tmr
+OSTmrRemainGet	lib/uCOS-II/src/os_tmr.c	/^INT32U  OSTmrRemainGet (OS_TMR  *ptmr,$/;"	f
+OSTmrSem	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_EVENT         *OSTmrSem;                 \/* Sem. used to gain exclusive access to timers    *\/$/;"	v
+OSTmrSemSignal	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_EVENT         *OSTmrSemSignal;           \/* Sem. used to signal the update of timers        *\/$/;"	v
+OSTmrSignal	lib/uCOS-II/src/os_tmr.c	/^INT8U  OSTmrSignal (void)$/;"	f
+OSTmrSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrSize           = 0u;$/;"	v
+OSTmrSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrSize           = sizeof(OS_TMR);$/;"	v
+OSTmrStart	lib/uCOS-II/src/os_tmr.c	/^BOOLEAN  OSTmrStart (OS_TMR   *ptmr,$/;"	f
+OSTmrState	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTmrState;            \/* Indicates the state of the timer:                       *\/$/;"	m	struct:os_tmr
+OSTmrStateGet	lib/uCOS-II/src/os_tmr.c	/^INT8U  OSTmrStateGet (OS_TMR  *ptmr,$/;"	f
+OSTmrStop	lib/uCOS-II/src/os_tmr.c	/^BOOLEAN  OSTmrStop (OS_TMR  *ptmr,$/;"	f
+OSTmrTaskStk	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_STK            OSTmrTaskStk[OS_TASK_TMR_STK_SIZE];$/;"	v
+OSTmrTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TMR            OSTmrTbl[OS_TMR_CFG_MAX]; \/* Table containing pool of timers                 *\/$/;"	v
+OSTmrTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrTblSize        = 0u;$/;"	v
+OSTmrTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrTblSize        = sizeof(OSTmrTbl);$/;"	v
+OSTmrTime	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT32U            OSTmrTime;                \/* Current timer time                              *\/$/;"	v
+OSTmrType	lib/uCOS-II/src/ucos_ii.h	/^    INT8U            OSTmrType;             \/* Should be set to OS_TMR_TYPE                            *\/$/;"	m	struct:os_tmr
+OSTmrUsed	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  INT16U            OSTmrUsed;                \/* Number of timers used                           *\/$/;"	v
+OSTmrWheelSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrWheelSize      = 0u;$/;"	v
+OSTmrWheelSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrWheelSize      = sizeof(OS_TMR_WHEEL);$/;"	v
+OSTmrWheelTbl	lib/uCOS-II/src/ucos_ii.h	/^OS_EXT  OS_TMR_WHEEL      OSTmrWheelTbl[OS_TMR_CFG_WHEEL_SIZE];$/;"	v
+OSTmrWheelTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrWheelTblSize   = 0u;$/;"	v
+OSTmrWheelTblSize	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSTmrWheelTblSize   = sizeof(OSTmrWheelTbl);$/;"	v
+OSTmr_Alloc	lib/uCOS-II/src/os_tmr.c	/^static  OS_TMR  *OSTmr_Alloc (void)$/;"	f	file:
+OSTmr_Free	lib/uCOS-II/src/os_tmr.c	/^static  void  OSTmr_Free (OS_TMR *ptmr)$/;"	f	file:
+OSTmr_Init	lib/uCOS-II/src/os_tmr.c	/^void  OSTmr_Init (void)$/;"	f
+OSTmr_InitTask	lib/uCOS-II/src/os_tmr.c	/^static  void  OSTmr_InitTask (void)$/;"	f	file:
+OSTmr_Link	lib/uCOS-II/src/os_tmr.c	/^static  void  OSTmr_Link (OS_TMR  *ptmr,$/;"	f	file:
+OSTmr_Task	lib/uCOS-II/src/os_tmr.c	/^static  void  OSTmr_Task (void *p_arg)$/;"	f	file:
+OSTmr_Unlink	lib/uCOS-II/src/os_tmr.c	/^static  void  OSTmr_Unlink (OS_TMR *ptmr)$/;"	f	file:
+OSUnMapTbl	lib/uCOS-II/src/os_core.c	/^INT8U  const  OSUnMapTbl[256] = {$/;"	v
+OSUsed	lib/uCOS-II/src/ucos_ii.h	/^    INT32U  OSUsed;                         \/* Number of entries used on the stack                     *\/$/;"	m	struct:os_stk_data
+OSValue	lib/uCOS-II/src/ucos_ii.h	/^    BOOLEAN OSValue;                        \/* Mutex value (OS_FALSE = used, OS_TRUE = available)      *\/$/;"	m	struct:os_mutex_data
+OSVersion	lib/uCOS-II/src/os_core.c	/^INT16U  OSVersion (void)$/;"	f
+OSVersionNbr	lib/uCOS-II/src/os_dbg.c	/^OS_COMPILER_OPT  INT16U  const  OSVersionNbr        = OS_VERSION;$/;"	v
+OS_APP_HOOKS_EN	lib/uCOS-II/src/os_cfg.h	44;"	d
+OS_ARG_CHK_EN	lib/uCOS-II/src/os_cfg.h	45;"	d
+OS_ASCII_NUL	lib/uCOS-II/src/ucos_ii.h	68;"	d
+OS_CFG_H	lib/uCOS-II/src/os_cfg.h	40;"	d
+OS_COMPILER_OPT	lib/uCOS-II/src/os_dbg.c	26;"	d	file:
+OS_CPU_ARM_FP_EN	lib/uCOS-II/src/os_cpu.h	71;"	d
+OS_CPU_CFG_SYSTICK_PRIO	lib/uCOS-II/src/os_cpu.h	98;"	d
+OS_CPU_CM4_NVIC_CPACR	lib/uCOS-II/src/os_cpu_c.c	617;"	d	file:
+OS_CPU_CM4_NVIC_CPACR	lib/uCOS-II/src/os_cpu_c.c	92;"	d	file:
+OS_CPU_CM4_NVIC_PRIO_MIN	lib/uCOS-II/src/os_cpu_c.c	100;"	d	file:
+OS_CPU_CM4_NVIC_PRIO_MIN	lib/uCOS-II/src/os_cpu_c.c	625;"	d	file:
+OS_CPU_CM4_NVIC_SHPRI1	lib/uCOS-II/src/os_cpu_c.c	614;"	d	file:
+OS_CPU_CM4_NVIC_SHPRI1	lib/uCOS-II/src/os_cpu_c.c	89;"	d	file:
+OS_CPU_CM4_NVIC_SHPRI2	lib/uCOS-II/src/os_cpu_c.c	615;"	d	file:
+OS_CPU_CM4_NVIC_SHPRI2	lib/uCOS-II/src/os_cpu_c.c	90;"	d	file:
+OS_CPU_CM4_NVIC_SHPRI3	lib/uCOS-II/src/os_cpu_c.c	616;"	d	file:
+OS_CPU_CM4_NVIC_SHPRI3	lib/uCOS-II/src/os_cpu_c.c	91;"	d	file:
+OS_CPU_CM4_NVIC_ST_CAL	lib/uCOS-II/src/os_cpu_c.c	613;"	d	file:
+OS_CPU_CM4_NVIC_ST_CAL	lib/uCOS-II/src/os_cpu_c.c	88;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL	lib/uCOS-II/src/os_cpu_c.c	610;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL	lib/uCOS-II/src/os_cpu_c.c	85;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_CLK_SRC	lib/uCOS-II/src/os_cpu_c.c	622;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_CLK_SRC	lib/uCOS-II/src/os_cpu_c.c	97;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_COUNT	lib/uCOS-II/src/os_cpu_c.c	621;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_COUNT	lib/uCOS-II/src/os_cpu_c.c	96;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_ENABLE	lib/uCOS-II/src/os_cpu_c.c	624;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_ENABLE	lib/uCOS-II/src/os_cpu_c.c	99;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_INTEN	lib/uCOS-II/src/os_cpu_c.c	623;"	d	file:
+OS_CPU_CM4_NVIC_ST_CTRL_INTEN	lib/uCOS-II/src/os_cpu_c.c	98;"	d	file:
+OS_CPU_CM4_NVIC_ST_CURRENT	lib/uCOS-II/src/os_cpu_c.c	612;"	d	file:
+OS_CPU_CM4_NVIC_ST_CURRENT	lib/uCOS-II/src/os_cpu_c.c	87;"	d	file:
+OS_CPU_CM4_NVIC_ST_RELOAD	lib/uCOS-II/src/os_cpu_c.c	611;"	d	file:
+OS_CPU_CM4_NVIC_ST_RELOAD	lib/uCOS-II/src/os_cpu_c.c	86;"	d	file:
+OS_CPU_CM4_SCB_FPCCR	lib/uCOS-II/src/os_cpu_c.c	618;"	d	file:
+OS_CPU_CM4_SCB_FPCCR	lib/uCOS-II/src/os_cpu_c.c	93;"	d	file:
+OS_CPU_EXCEPT_STK_SIZE	lib/uCOS-II/src/os_cpu.h	58;"	d
+OS_CPU_EXT	lib/uCOS-II/src/os_cpu.h	52;"	d
+OS_CPU_EXT	lib/uCOS-II/src/os_cpu.h	54;"	d
+OS_CPU_ExceptStk	lib/uCOS-II/src/os_cpu.h	/^OS_CPU_EXT  OS_STK   OS_CPU_ExceptStk[OS_CPU_EXCEPT_STK_SIZE];$/;"	v
+OS_CPU_ExceptStkBase	lib/uCOS-II/src/os_cpu.h	/^OS_CPU_EXT  OS_STK  *OS_CPU_ExceptStkBase;$/;"	v
+OS_CPU_FP_Reg_Pop	lib/uCOS-II/src/os_cpu_a.s	/^OS_CPU_FP_Reg_Pop:$/;"	l
+OS_CPU_FP_Reg_Push	lib/uCOS-II/src/os_cpu_a.s	/^OS_CPU_FP_Reg_Push:$/;"	l
+OS_CPU_FP_nosave	lib/uCOS-II/src/os_cpu_a.s	/^OS_CPU_FP_nosave:$/;"	l
+OS_CPU_GLOBALS	lib/uCOS-II/src/os_cpu_c.c	51;"	d	file:
+OS_CPU_GLOBALS	lib/uCOS-II/src/os_cpu_c.c	576;"	d	file:
+OS_CPU_H	lib/uCOS-II/src/os_cpu.h	49;"	d
+OS_CPU_HOOKS_EN	lib/uCOS-II/src/os_cfg.h	46;"	d
+OS_CPU_PendSVHandler_nosave	lib/uCOS-II/src/os_cpu_a.s	/^OS_CPU_PendSVHandler_nosave:$/;"	l
+OS_CPU_SR	lib/uCOS-II/src/os_cpu.h	/^typedef unsigned int   OS_CPU_SR;                \/* Define size of CPU status register (PSR = 32 bits) *\/$/;"	t
+OS_CPU_SR_Restore	lib/uCOS-II/src/os_cpu_a.s	/^OS_CPU_SR_Restore:$/;"	l
+OS_CPU_SR_Save	lib/uCOS-II/src/os_cpu_a.s	/^OS_CPU_SR_Save:$/;"	l
+OS_CPU_SysTickInit	lib/uCOS-II/src/os_cpu_c.c	/^void  OS_CPU_SysTickInit (INT32U  cnts)$/;"	f
+OS_CRITICAL_METHOD	lib/uCOS-II/src/os_cpu.h	143;"	d
+OS_DEBUG_EN	lib/uCOS-II/src/os_cfg.h	48;"	d
+OS_DEL_ALWAYS	lib/uCOS-II/src/ucos_ii.h	183;"	d
+OS_DEL_NO_PEND	lib/uCOS-II/src/ucos_ii.h	182;"	d
+OS_Dummy	lib/uCOS-II/src/os_core.c	/^void  OS_Dummy (void)$/;"	f
+OS_ENTER_CRITICAL	lib/uCOS-II/src/os_cpu.h	146;"	d
+OS_ERR_CREATE_ISR	lib/uCOS-II/src/ucos_ii.h	264;"	d
+OS_ERR_DEL_ISR	lib/uCOS-II/src/ucos_ii.h	263;"	d
+OS_ERR_EVENT_NAME_TOO_LONG	lib/uCOS-II/src/ucos_ii.h	259;"	d
+OS_ERR_EVENT_TYPE	lib/uCOS-II/src/ucos_ii.h	248;"	d
+OS_ERR_FLAG_GRP_DEPLETED	lib/uCOS-II/src/ucos_ii.h	320;"	d
+OS_ERR_FLAG_INVALID_OPT	lib/uCOS-II/src/ucos_ii.h	319;"	d
+OS_ERR_FLAG_INVALID_PGRP	lib/uCOS-II/src/ucos_ii.h	316;"	d
+OS_ERR_FLAG_NAME_TOO_LONG	lib/uCOS-II/src/ucos_ii.h	321;"	d
+OS_ERR_FLAG_NOT_RDY	lib/uCOS-II/src/ucos_ii.h	318;"	d
+OS_ERR_FLAG_WAIT_TYPE	lib/uCOS-II/src/ucos_ii.h	317;"	d
+OS_ERR_ID_INVALID	lib/uCOS-II/src/ucos_ii.h	255;"	d
+OS_ERR_ILLEGAL_CREATE_RUN_TIME	lib/uCOS-II/src/ucos_ii.h	267;"	d
+OS_ERR_INVALID_OPT	lib/uCOS-II/src/ucos_ii.h	254;"	d
+OS_ERR_MBOX_FULL	lib/uCOS-II/src/ucos_ii.h	269;"	d
+OS_ERR_MEM_FULL	lib/uCOS-II/src/ucos_ii.h	307;"	d
+OS_ERR_MEM_INVALID_ADDR	lib/uCOS-II/src/ucos_ii.h	311;"	d
+OS_ERR_MEM_INVALID_BLKS	lib/uCOS-II/src/ucos_ii.h	304;"	d
+OS_ERR_MEM_INVALID_PART	lib/uCOS-II/src/ucos_ii.h	303;"	d
+OS_ERR_MEM_INVALID_PBLK	lib/uCOS-II/src/ucos_ii.h	308;"	d
+OS_ERR_MEM_INVALID_PDATA	lib/uCOS-II/src/ucos_ii.h	310;"	d
+OS_ERR_MEM_INVALID_PMEM	lib/uCOS-II/src/ucos_ii.h	309;"	d
+OS_ERR_MEM_INVALID_SIZE	lib/uCOS-II/src/ucos_ii.h	305;"	d
+OS_ERR_MEM_NAME_TOO_LONG	lib/uCOS-II/src/ucos_ii.h	312;"	d
+OS_ERR_MEM_NO_FREE_BLKS	lib/uCOS-II/src/ucos_ii.h	306;"	d
+OS_ERR_NAME_GET_ISR	lib/uCOS-II/src/ucos_ii.h	265;"	d
+OS_ERR_NAME_SET_ISR	lib/uCOS-II/src/ucos_ii.h	266;"	d
+OS_ERR_NONE	lib/uCOS-II/src/ucos_ii.h	246;"	d
+OS_ERR_NOT_MUTEX_OWNER	lib/uCOS-II/src/ucos_ii.h	314;"	d
+OS_ERR_NO_MORE_ID_AVAIL	lib/uCOS-II/src/ucos_ii.h	340;"	d
+OS_ERR_OS_NOT_RUNNING	lib/uCOS-II/src/ucos_ii.h	346;"	d
+OS_ERR_PCP_LOWER	lib/uCOS-II/src/ucos_ii.h	323;"	d
+OS_ERR_PDATA_NULL	lib/uCOS-II/src/ucos_ii.h	256;"	d
+OS_ERR_PEND_ABORT	lib/uCOS-II/src/ucos_ii.h	262;"	d
+OS_ERR_PEND_ISR	lib/uCOS-II/src/ucos_ii.h	249;"	d
+OS_ERR_PEND_LOCKED	lib/uCOS-II/src/ucos_ii.h	261;"	d
+OS_ERR_PEVENT_NULL	lib/uCOS-II/src/ucos_ii.h	251;"	d
+OS_ERR_PNAME_NULL	lib/uCOS-II/src/ucos_ii.h	260;"	d
+OS_ERR_POST_ISR	lib/uCOS-II/src/ucos_ii.h	252;"	d
+OS_ERR_POST_NULL_PTR	lib/uCOS-II/src/ucos_ii.h	250;"	d
+OS_ERR_PRIO	lib/uCOS-II/src/ucos_ii.h	275;"	d
+OS_ERR_PRIO_EXIST	lib/uCOS-II/src/ucos_ii.h	274;"	d
+OS_ERR_PRIO_INVALID	lib/uCOS-II/src/ucos_ii.h	276;"	d
+OS_ERR_QUERY_ISR	lib/uCOS-II/src/ucos_ii.h	253;"	d
+OS_ERR_Q_EMPTY	lib/uCOS-II/src/ucos_ii.h	272;"	d
+OS_ERR_Q_FULL	lib/uCOS-II/src/ucos_ii.h	271;"	d
+OS_ERR_SCHED_LOCKED	lib/uCOS-II/src/ucos_ii.h	278;"	d
+OS_ERR_SEM_OVF	lib/uCOS-II/src/ucos_ii.h	279;"	d
+OS_ERR_TASK_CREATE_ISR	lib/uCOS-II/src/ucos_ii.h	281;"	d
+OS_ERR_TASK_DEL	lib/uCOS-II/src/ucos_ii.h	282;"	d
+OS_ERR_TASK_DEL_IDLE	lib/uCOS-II/src/ucos_ii.h	283;"	d
+OS_ERR_TASK_DEL_ISR	lib/uCOS-II/src/ucos_ii.h	285;"	d
+OS_ERR_TASK_DEL_REQ	lib/uCOS-II/src/ucos_ii.h	284;"	d
+OS_ERR_TASK_NAME_TOO_LONG	lib/uCOS-II/src/ucos_ii.h	286;"	d
+OS_ERR_TASK_NOT_EXIST	lib/uCOS-II/src/ucos_ii.h	288;"	d
+OS_ERR_TASK_NOT_SUSPENDED	lib/uCOS-II/src/ucos_ii.h	289;"	d
+OS_ERR_TASK_NO_MORE_TCB	lib/uCOS-II/src/ucos_ii.h	287;"	d
+OS_ERR_TASK_OPT	lib/uCOS-II/src/ucos_ii.h	290;"	d
+OS_ERR_TASK_RESUME_PRIO	lib/uCOS-II/src/ucos_ii.h	291;"	d
+OS_ERR_TASK_SUSPEND_IDLE	lib/uCOS-II/src/ucos_ii.h	292;"	d
+OS_ERR_TASK_SUSPEND_PRIO	lib/uCOS-II/src/ucos_ii.h	293;"	d
+OS_ERR_TASK_WAITING	lib/uCOS-II/src/ucos_ii.h	294;"	d
+OS_ERR_TIMEOUT	lib/uCOS-II/src/ucos_ii.h	258;"	d
+OS_ERR_TIME_DLY_ISR	lib/uCOS-II/src/ucos_ii.h	301;"	d
+OS_ERR_TIME_INVALID_MINUTES	lib/uCOS-II/src/ucos_ii.h	297;"	d
+OS_ERR_TIME_INVALID_MS	lib/uCOS-II/src/ucos_ii.h	299;"	d
+OS_ERR_TIME_INVALID_SECONDS	lib/uCOS-II/src/ucos_ii.h	298;"	d
+OS_ERR_TIME_NOT_DLY	lib/uCOS-II/src/ucos_ii.h	296;"	d
+OS_ERR_TIME_ZERO_DLY	lib/uCOS-II/src/ucos_ii.h	300;"	d
+OS_ERR_TLS_DESTRUCT_ASSIGNED	lib/uCOS-II/src/ucos_ii.h	345;"	d
+OS_ERR_TLS_ID_INVALID	lib/uCOS-II/src/ucos_ii.h	343;"	d
+OS_ERR_TLS_NOT_EN	lib/uCOS-II/src/ucos_ii.h	344;"	d
+OS_ERR_TLS_NO_MORE_AVAIL	lib/uCOS-II/src/ucos_ii.h	342;"	d
+OS_ERR_TMR_INACTIVE	lib/uCOS-II/src/ucos_ii.h	330;"	d
+OS_ERR_TMR_INVALID	lib/uCOS-II/src/ucos_ii.h	333;"	d
+OS_ERR_TMR_INVALID_DEST	lib/uCOS-II/src/ucos_ii.h	331;"	d
+OS_ERR_TMR_INVALID_DLY	lib/uCOS-II/src/ucos_ii.h	325;"	d
+OS_ERR_TMR_INVALID_NAME	lib/uCOS-II/src/ucos_ii.h	328;"	d
+OS_ERR_TMR_INVALID_OPT	lib/uCOS-II/src/ucos_ii.h	327;"	d
+OS_ERR_TMR_INVALID_PERIOD	lib/uCOS-II/src/ucos_ii.h	326;"	d
+OS_ERR_TMR_INVALID_STATE	lib/uCOS-II/src/ucos_ii.h	336;"	d
+OS_ERR_TMR_INVALID_TYPE	lib/uCOS-II/src/ucos_ii.h	332;"	d
+OS_ERR_TMR_ISR	lib/uCOS-II/src/ucos_ii.h	334;"	d
+OS_ERR_TMR_NAME_TOO_LONG	lib/uCOS-II/src/ucos_ii.h	335;"	d
+OS_ERR_TMR_NON_AVAIL	lib/uCOS-II/src/ucos_ii.h	329;"	d
+OS_ERR_TMR_NO_CALLBACK	lib/uCOS-II/src/ucos_ii.h	338;"	d
+OS_ERR_TMR_STOPPED	lib/uCOS-II/src/ucos_ii.h	337;"	d
+OS_EVENT	lib/uCOS-II/src/ucos_ii.h	/^} OS_EVENT;$/;"	t	typeref:struct:os_event
+OS_EVENT_EN	lib/uCOS-II/src/ucos_ii.h	94;"	d
+OS_EVENT_MULTI_EN	lib/uCOS-II/src/os_cfg.h	50;"	d
+OS_EVENT_NAME_EN	lib/uCOS-II/src/os_cfg.h	51;"	d
+OS_EVENT_TBL_SIZE	lib/uCOS-II/src/ucos_ii.h	83;"	d
+OS_EVENT_TBL_SIZE	lib/uCOS-II/src/ucos_ii.h	86;"	d
+OS_EVENT_TYPE_FLAG	lib/uCOS-II/src/ucos_ii.h	134;"	d
+OS_EVENT_TYPE_MBOX	lib/uCOS-II/src/ucos_ii.h	130;"	d
+OS_EVENT_TYPE_MUTEX	lib/uCOS-II/src/ucos_ii.h	133;"	d
+OS_EVENT_TYPE_Q	lib/uCOS-II/src/ucos_ii.h	131;"	d
+OS_EVENT_TYPE_SEM	lib/uCOS-II/src/ucos_ii.h	132;"	d
+OS_EVENT_TYPE_UNUSED	lib/uCOS-II/src/ucos_ii.h	129;"	d
+OS_EXIT_CRITICAL	lib/uCOS-II/src/os_cpu.h	147;"	d
+OS_EXT	lib/uCOS-II/src/ucos_ii.h	55;"	d
+OS_EXT	lib/uCOS-II/src/ucos_ii.h	57;"	d
+OS_EventTaskRdy	lib/uCOS-II/src/os_core.c	/^INT8U  OS_EventTaskRdy (OS_EVENT  *pevent,$/;"	f
+OS_EventTaskRemove	lib/uCOS-II/src/os_core.c	/^void  OS_EventTaskRemove (OS_TCB   *ptcb,$/;"	f
+OS_EventTaskRemoveMulti	lib/uCOS-II/src/os_core.c	/^void  OS_EventTaskRemoveMulti (OS_TCB    *ptcb,$/;"	f
+OS_EventTaskWait	lib/uCOS-II/src/os_core.c	/^void  OS_EventTaskWait (OS_EVENT *pevent)$/;"	f
+OS_EventTaskWaitMulti	lib/uCOS-II/src/os_core.c	/^void  OS_EventTaskWaitMulti (OS_EVENT **pevents_wait)$/;"	f
+OS_EventWaitListInit	lib/uCOS-II/src/os_core.c	/^void  OS_EventWaitListInit (OS_EVENT *pevent)$/;"	f
+OS_FALSE	lib/uCOS-II/src/ucos_ii.h	61;"	d
+OS_FLAGS	lib/uCOS-II/src/ucos_ii.h	/^typedef  INT16U   OS_FLAGS;$/;"	t
+OS_FLAGS	lib/uCOS-II/src/ucos_ii.h	/^typedef  INT32U   OS_FLAGS;$/;"	t
+OS_FLAGS	lib/uCOS-II/src/ucos_ii.h	/^typedef  INT8U    OS_FLAGS;$/;"	t
+OS_FLAGS_NBITS	lib/uCOS-II/src/os_cfg.h	96;"	d
+OS_FLAG_ACCEPT_EN	lib/uCOS-II/src/os_cfg.h	91;"	d
+OS_FLAG_CLR	lib/uCOS-II/src/ucos_ii.h	160;"	d
+OS_FLAG_CONSUME	lib/uCOS-II/src/ucos_ii.h	157;"	d
+OS_FLAG_DEL_EN	lib/uCOS-II/src/os_cfg.h	92;"	d
+OS_FLAG_EN	lib/uCOS-II/src/os_cfg.h	90;"	d
+OS_FLAG_GRP	lib/uCOS-II/src/ucos_ii.h	/^} OS_FLAG_GRP;$/;"	t	typeref:struct:os_flag_grp
+OS_FLAG_NAME_EN	lib/uCOS-II/src/os_cfg.h	93;"	d
+OS_FLAG_NODE	lib/uCOS-II/src/ucos_ii.h	/^} OS_FLAG_NODE;$/;"	t	typeref:struct:os_flag_node
+OS_FLAG_QUERY_EN	lib/uCOS-II/src/os_cfg.h	94;"	d
+OS_FLAG_SET	lib/uCOS-II/src/ucos_ii.h	161;"	d
+OS_FLAG_WAIT_CLR_ALL	lib/uCOS-II/src/ucos_ii.h	144;"	d
+OS_FLAG_WAIT_CLR_AND	lib/uCOS-II/src/ucos_ii.h	145;"	d
+OS_FLAG_WAIT_CLR_ANY	lib/uCOS-II/src/ucos_ii.h	147;"	d
+OS_FLAG_WAIT_CLR_EN	lib/uCOS-II/src/os_cfg.h	95;"	d
+OS_FLAG_WAIT_CLR_OR	lib/uCOS-II/src/ucos_ii.h	148;"	d
+OS_FLAG_WAIT_SET_ALL	lib/uCOS-II/src/ucos_ii.h	150;"	d
+OS_FLAG_WAIT_SET_AND	lib/uCOS-II/src/ucos_ii.h	151;"	d
+OS_FLAG_WAIT_SET_ANY	lib/uCOS-II/src/ucos_ii.h	153;"	d
+OS_FLAG_WAIT_SET_OR	lib/uCOS-II/src/ucos_ii.h	154;"	d
+OS_FlagBlock	lib/uCOS-II/src/os_flag.c	/^static  void  OS_FlagBlock (OS_FLAG_GRP  *pgrp,$/;"	f	file:
+OS_FlagInit	lib/uCOS-II/src/os_flag.c	/^void  OS_FlagInit (void)$/;"	f
+OS_FlagTaskRdy	lib/uCOS-II/src/os_flag.c	/^static  BOOLEAN  OS_FlagTaskRdy (OS_FLAG_NODE *pnode,$/;"	f	file:
+OS_FlagUnlink	lib/uCOS-II/src/os_flag.c	/^void  OS_FlagUnlink (OS_FLAG_NODE *pnode)$/;"	f
+OS_GLOBALS	lib/uCOS-II/src/os_core.c	27;"	d	file:
+OS_InitEventList	lib/uCOS-II/src/os_core.c	/^static  void  OS_InitEventList (void)$/;"	f	file:
+OS_InitMisc	lib/uCOS-II/src/os_core.c	/^static  void  OS_InitMisc (void)$/;"	f	file:
+OS_InitRdyList	lib/uCOS-II/src/os_core.c	/^static  void  OS_InitRdyList (void)$/;"	f	file:
+OS_InitTCBList	lib/uCOS-II/src/os_core.c	/^static  void  OS_InitTCBList (void)$/;"	f	file:
+OS_InitTaskIdle	lib/uCOS-II/src/os_core.c	/^static  void  OS_InitTaskIdle (void)$/;"	f	file:
+OS_InitTaskStat	lib/uCOS-II/src/os_core.c	/^static  void  OS_InitTaskStat (void)$/;"	f	file:
+OS_LOWEST_PRIO	lib/uCOS-II/src/os_cfg.h	53;"	d
+OS_MAX_EVENTS	lib/uCOS-II/src/os_cfg.h	56;"	d
+OS_MAX_FLAGS	lib/uCOS-II/src/os_cfg.h	57;"	d
+OS_MAX_MEM_PART	lib/uCOS-II/src/os_cfg.h	58;"	d
+OS_MAX_QS	lib/uCOS-II/src/os_cfg.h	59;"	d
+OS_MAX_TASKS	lib/uCOS-II/src/os_cfg.h	60;"	d
+OS_MBOX_ACCEPT_EN	lib/uCOS-II/src/os_cfg.h	101;"	d
+OS_MBOX_DATA	lib/uCOS-II/src/ucos_ii.h	/^} OS_MBOX_DATA;$/;"	t	typeref:struct:os_mbox_data
+OS_MBOX_DEL_EN	lib/uCOS-II/src/os_cfg.h	102;"	d
+OS_MBOX_EN	lib/uCOS-II/src/os_cfg.h	100;"	d
+OS_MBOX_PEND_ABORT_EN	lib/uCOS-II/src/os_cfg.h	103;"	d
+OS_MBOX_POST_EN	lib/uCOS-II/src/os_cfg.h	104;"	d
+OS_MBOX_POST_OPT_EN	lib/uCOS-II/src/os_cfg.h	105;"	d
+OS_MBOX_QUERY_EN	lib/uCOS-II/src/os_cfg.h	106;"	d
+OS_MEM	lib/uCOS-II/src/ucos_ii.h	/^} OS_MEM;$/;"	t	typeref:struct:os_mem
+OS_MEM_DATA	lib/uCOS-II/src/ucos_ii.h	/^} OS_MEM_DATA;$/;"	t	typeref:struct:os_mem_data
+OS_MEM_EN	lib/uCOS-II/src/os_cfg.h	110;"	d
+OS_MEM_NAME_EN	lib/uCOS-II/src/os_cfg.h	111;"	d
+OS_MEM_QUERY_EN	lib/uCOS-II/src/os_cfg.h	112;"	d
+OS_MUTEX_ACCEPT_EN	lib/uCOS-II/src/os_cfg.h	117;"	d
+OS_MUTEX_AVAILABLE	lib/uCOS-II/src/os_mutex.c	41;"	d	file:
+OS_MUTEX_DATA	lib/uCOS-II/src/ucos_ii.h	/^} OS_MUTEX_DATA;$/;"	t	typeref:struct:os_mutex_data
+OS_MUTEX_DEL_EN	lib/uCOS-II/src/os_cfg.h	118;"	d
+OS_MUTEX_EN	lib/uCOS-II/src/os_cfg.h	116;"	d
+OS_MUTEX_KEEP_LOWER_8	lib/uCOS-II/src/os_mutex.c	38;"	d	file:
+OS_MUTEX_KEEP_UPPER_8	lib/uCOS-II/src/os_mutex.c	39;"	d	file:
+OS_MUTEX_QUERY_EN	lib/uCOS-II/src/os_cfg.h	119;"	d
+OS_MemClr	lib/uCOS-II/src/os_core.c	/^void  OS_MemClr (INT8U  *pdest,$/;"	f
+OS_MemCopy	lib/uCOS-II/src/os_core.c	/^void  OS_MemCopy (INT8U  *pdest,$/;"	f
+OS_MemInit	lib/uCOS-II/src/os_mem.c	/^void  OS_MemInit (void)$/;"	f
+OS_N_SYS_TASKS	lib/uCOS-II/src/ucos_ii.h	74;"	d
+OS_N_SYS_TASKS	lib/uCOS-II/src/ucos_ii.h	76;"	d
+OS_PEND_OPT_BROADCAST	lib/uCOS-II/src/ucos_ii.h	193;"	d
+OS_PEND_OPT_NONE	lib/uCOS-II/src/ucos_ii.h	192;"	d
+OS_POST_OPT_BROADCAST	lib/uCOS-II/src/ucos_ii.h	203;"	d
+OS_POST_OPT_FRONT	lib/uCOS-II/src/ucos_ii.h	204;"	d
+OS_POST_OPT_NONE	lib/uCOS-II/src/ucos_ii.h	202;"	d
+OS_POST_OPT_NO_SCHED	lib/uCOS-II/src/ucos_ii.h	205;"	d
+OS_PRIO	lib/uCOS-II/src/ucos_ii.h	/^typedef  INT16U   OS_PRIO;$/;"	t
+OS_PRIO	lib/uCOS-II/src/ucos_ii.h	/^typedef  INT8U    OS_PRIO;$/;"	t
+OS_PRIO_MUTEX_CEIL_DIS	lib/uCOS-II/src/ucos_ii.h	71;"	d
+OS_PRIO_SELF	lib/uCOS-II/src/ucos_ii.h	70;"	d
+OS_Q	lib/uCOS-II/src/ucos_ii.h	/^} OS_Q;$/;"	t	typeref:struct:os_q
+OS_QInit	lib/uCOS-II/src/os_q.c	/^void  OS_QInit (void)$/;"	f
+OS_Q_ACCEPT_EN	lib/uCOS-II/src/os_cfg.h	124;"	d
+OS_Q_DATA	lib/uCOS-II/src/ucos_ii.h	/^} OS_Q_DATA;$/;"	t	typeref:struct:os_q_data
+OS_Q_DEL_EN	lib/uCOS-II/src/os_cfg.h	125;"	d
+OS_Q_EN	lib/uCOS-II/src/os_cfg.h	123;"	d
+OS_Q_FLUSH_EN	lib/uCOS-II/src/os_cfg.h	126;"	d
+OS_Q_PEND_ABORT_EN	lib/uCOS-II/src/os_cfg.h	127;"	d
+OS_Q_POST_EN	lib/uCOS-II/src/os_cfg.h	128;"	d
+OS_Q_POST_FRONT_EN	lib/uCOS-II/src/os_cfg.h	129;"	d
+OS_Q_POST_OPT_EN	lib/uCOS-II/src/os_cfg.h	130;"	d
+OS_Q_QUERY_EN	lib/uCOS-II/src/os_cfg.h	131;"	d
+OS_RDY_TBL_SIZE	lib/uCOS-II/src/ucos_ii.h	84;"	d
+OS_RDY_TBL_SIZE	lib/uCOS-II/src/ucos_ii.h	87;"	d
+OS_SCHED_LOCK_EN	lib/uCOS-II/src/os_cfg.h	62;"	d
+OS_SEM_ACCEPT_EN	lib/uCOS-II/src/os_cfg.h	136;"	d
+OS_SEM_DATA	lib/uCOS-II/src/ucos_ii.h	/^} OS_SEM_DATA;$/;"	t	typeref:struct:os_sem_data
+OS_SEM_DEL_EN	lib/uCOS-II/src/os_cfg.h	137;"	d
+OS_SEM_EN	lib/uCOS-II/src/os_cfg.h	135;"	d
+OS_SEM_PEND_ABORT_EN	lib/uCOS-II/src/os_cfg.h	138;"	d
+OS_SEM_QUERY_EN	lib/uCOS-II/src/os_cfg.h	139;"	d
+OS_SEM_SET_EN	lib/uCOS-II/src/os_cfg.h	140;"	d
+OS_STAT_FLAG	lib/uCOS-II/src/ucos_ii.h	110;"	d
+OS_STAT_MBOX	lib/uCOS-II/src/ucos_ii.h	106;"	d
+OS_STAT_MULTI	lib/uCOS-II/src/ucos_ii.h	111;"	d
+OS_STAT_MUTEX	lib/uCOS-II/src/ucos_ii.h	109;"	d
+OS_STAT_PEND_ABORT	lib/uCOS-II/src/ucos_ii.h	122;"	d
+OS_STAT_PEND_ANY	lib/uCOS-II/src/ucos_ii.h	113;"	d
+OS_STAT_PEND_OK	lib/uCOS-II/src/ucos_ii.h	120;"	d
+OS_STAT_PEND_TO	lib/uCOS-II/src/ucos_ii.h	121;"	d
+OS_STAT_Q	lib/uCOS-II/src/ucos_ii.h	107;"	d
+OS_STAT_RDY	lib/uCOS-II/src/ucos_ii.h	104;"	d
+OS_STAT_SEM	lib/uCOS-II/src/ucos_ii.h	105;"	d
+OS_STAT_SUSPEND	lib/uCOS-II/src/ucos_ii.h	108;"	d
+OS_STK	lib/uCOS-II/src/os_cpu.h	/^typedef unsigned int   OS_STK;                   \/* Each stack entry is 32-bit wide                    *\/$/;"	t
+OS_STK_DATA	lib/uCOS-II/src/ucos_ii.h	/^} OS_STK_DATA;$/;"	t	typeref:struct:os_stk_data
+OS_STK_GROWTH	lib/uCOS-II/src/os_cpu.h	157;"	d
+OS_Sched	lib/uCOS-II/src/os_core.c	/^void  OS_Sched (void)$/;"	f
+OS_SchedNew	lib/uCOS-II/src/os_core.c	/^static  void  OS_SchedNew (void)$/;"	f	file:
+OS_StrLen	lib/uCOS-II/src/os_core.c	/^INT8U  OS_StrLen (INT8U *psrc)$/;"	f
+OS_TASK_CHANGE_PRIO_EN	lib/uCOS-II/src/os_cfg.h	75;"	d
+OS_TASK_CREATE_EN	lib/uCOS-II/src/os_cfg.h	76;"	d
+OS_TASK_CREATE_EXT_EN	lib/uCOS-II/src/os_cfg.h	77;"	d
+OS_TASK_DEL_EN	lib/uCOS-II/src/os_cfg.h	78;"	d
+OS_TASK_IDLE_ID	lib/uCOS-II/src/ucos_ii.h	90;"	d
+OS_TASK_IDLE_PRIO	lib/uCOS-II/src/ucos_ii.h	80;"	d
+OS_TASK_IDLE_STK_SIZE	lib/uCOS-II/src/os_cfg.h	71;"	d
+OS_TASK_NAME_EN	lib/uCOS-II/src/os_cfg.h	79;"	d
+OS_TASK_OPT_NONE	lib/uCOS-II/src/ucos_ii.h	212;"	d
+OS_TASK_OPT_NO_TLS	lib/uCOS-II/src/ucos_ii.h	216;"	d
+OS_TASK_OPT_SAVE_FP	lib/uCOS-II/src/ucos_ii.h	215;"	d
+OS_TASK_OPT_STK_CHK	lib/uCOS-II/src/ucos_ii.h	213;"	d
+OS_TASK_OPT_STK_CLR	lib/uCOS-II/src/ucos_ii.h	214;"	d
+OS_TASK_PROFILE_EN	lib/uCOS-II/src/os_cfg.h	80;"	d
+OS_TASK_QUERY_EN	lib/uCOS-II/src/os_cfg.h	81;"	d
+OS_TASK_REG_TBL_SIZE	lib/uCOS-II/src/os_cfg.h	82;"	d
+OS_TASK_STAT_EN	lib/uCOS-II/src/os_cfg.h	83;"	d
+OS_TASK_STAT_ID	lib/uCOS-II/src/ucos_ii.h	91;"	d
+OS_TASK_STAT_PRIO	lib/uCOS-II/src/ucos_ii.h	79;"	d
+OS_TASK_STAT_STK_CHK_EN	lib/uCOS-II/src/os_cfg.h	84;"	d
+OS_TASK_STAT_STK_SIZE	lib/uCOS-II/src/os_cfg.h	70;"	d
+OS_TASK_SUSPEND_EN	lib/uCOS-II/src/os_cfg.h	85;"	d
+OS_TASK_SW	lib/uCOS-II/src/os_cpu.h	159;"	d
+OS_TASK_SW_HOOK_EN	lib/uCOS-II/src/os_cfg.h	86;"	d
+OS_TASK_TMR_ID	lib/uCOS-II/src/ucos_ii.h	92;"	d
+OS_TASK_TMR_PRIO	lib/uCOS-II/src/app_cfg.h	51;"	d
+OS_TASK_TMR_STK_SIZE	lib/uCOS-II/src/os_cfg.h	69;"	d
+OS_TCB	lib/uCOS-II/src/ucos_ii.h	/^} OS_TCB;$/;"	t	typeref:struct:os_tcb
+OS_TCBInit	lib/uCOS-II/src/os_core.c	/^INT8U  OS_TCBInit (INT8U    prio,$/;"	f
+OS_TCB_RESERVED	lib/uCOS-II/src/ucos_ii.h	96;"	d
+OS_TICKS_PER_SEC	lib/uCOS-II/src/os_cfg.h	65;"	d
+OS_TICK_STEP_DIS	lib/uCOS-II/src/ucos_ii.h	172;"	d
+OS_TICK_STEP_EN	lib/uCOS-II/src/os_cfg.h	64;"	d
+OS_TICK_STEP_ONCE	lib/uCOS-II/src/ucos_ii.h	174;"	d
+OS_TICK_STEP_WAIT	lib/uCOS-II/src/ucos_ii.h	173;"	d
+OS_TIME_DLY_HMSM_EN	lib/uCOS-II/src/os_cfg.h	144;"	d
+OS_TIME_DLY_RESUME_EN	lib/uCOS-II/src/os_cfg.h	145;"	d
+OS_TIME_GET_SET_EN	lib/uCOS-II/src/os_cfg.h	146;"	d
+OS_TIME_TICK_HOOK_EN	lib/uCOS-II/src/os_cfg.h	147;"	d
+OS_TLS	lib/uCOS-II/src/ucos_ii.h	/^typedef  void                       *OS_TLS;$/;"	t
+OS_TLS_DESTRUCT_PTR	lib/uCOS-II/src/ucos_ii.h	/^typedef  void                      (*OS_TLS_DESTRUCT_PTR)(OS_TCB    *ptcb,$/;"	t
+OS_TLS_ID	lib/uCOS-II/src/ucos_ii.h	/^typedef  INT8U                       OS_TLS_ID;$/;"	t
+OS_TMR	lib/uCOS-II/src/ucos_ii.h	/^} OS_TMR;$/;"	t	typeref:struct:os_tmr
+OS_TMR_CALLBACK	lib/uCOS-II/src/ucos_ii.h	/^typedef  void (*OS_TMR_CALLBACK)(void *ptmr, void *parg);$/;"	t
+OS_TMR_CFG_MAX	lib/uCOS-II/src/os_cfg.h	152;"	d
+OS_TMR_CFG_NAME_EN	lib/uCOS-II/src/os_cfg.h	153;"	d
+OS_TMR_CFG_TICKS_PER_SEC	lib/uCOS-II/src/os_cfg.h	155;"	d
+OS_TMR_CFG_WHEEL_SIZE	lib/uCOS-II/src/os_cfg.h	154;"	d
+OS_TMR_EN	lib/uCOS-II/src/os_cfg.h	151;"	d
+OS_TMR_LINK_DLY	lib/uCOS-II/src/os_tmr.c	50;"	d	file:
+OS_TMR_LINK_PERIODIC	lib/uCOS-II/src/os_tmr.c	51;"	d	file:
+OS_TMR_OPT_CALLBACK	lib/uCOS-II/src/ucos_ii.h	228;"	d
+OS_TMR_OPT_CALLBACK_ARG	lib/uCOS-II/src/ucos_ii.h	229;"	d
+OS_TMR_OPT_NONE	lib/uCOS-II/src/ucos_ii.h	223;"	d
+OS_TMR_OPT_ONE_SHOT	lib/uCOS-II/src/ucos_ii.h	225;"	d
+OS_TMR_OPT_PERIODIC	lib/uCOS-II/src/ucos_ii.h	226;"	d
+OS_TMR_STATE_COMPLETED	lib/uCOS-II/src/ucos_ii.h	238;"	d
+OS_TMR_STATE_RUNNING	lib/uCOS-II/src/ucos_ii.h	239;"	d
+OS_TMR_STATE_STOPPED	lib/uCOS-II/src/ucos_ii.h	237;"	d
+OS_TMR_STATE_UNUSED	lib/uCOS-II/src/ucos_ii.h	236;"	d
+OS_TMR_TYPE	lib/uCOS-II/src/ucos_ii.h	136;"	d
+OS_TMR_WHEEL	lib/uCOS-II/src/ucos_ii.h	/^} OS_TMR_WHEEL;$/;"	t	typeref:struct:os_tmr_wheel
+OS_TRUE	lib/uCOS-II/src/ucos_ii.h	65;"	d
+OS_TaskIdle	lib/uCOS-II/src/os_core.c	/^void  OS_TaskIdle (void *p_arg)$/;"	f
+OS_TaskReturn	lib/uCOS-II/src/os_task.c	/^void  OS_TaskReturn (void)$/;"	f
+OS_TaskStat	lib/uCOS-II/src/os_core.c	/^void  OS_TaskStat (void *p_arg)$/;"	f
+OS_TaskStatStkChk	lib/uCOS-II/src/os_core.c	/^void  OS_TaskStatStkChk (void)$/;"	f
+OS_TaskStkClr	lib/uCOS-II/src/os_task.c	/^void  OS_TaskStkClr (OS_STK  *pbos,$/;"	f
+OS_VERSION	lib/uCOS-II/src/ucos_ii.h	36;"	d
+OS_uCOS_II_H	lib/uCOS-II/src/ucos_ii.h	24;"	d
+PendSV_Handler	lib/uCOS-II/src/os_cpu_a.s	/^PendSV_Handler:    \/* QL was: OS_CPU_PendSVHandler *\/$/;"	l
+SysTick_Handler	lib/uCOS-II/src/os_cpu_c.c	/^void  SysTick_Handler (void)  \/* QL was: void  OS_CPU_SysTickHandler (void) *\/$/;"	f
+TRACE_LEVEL_DBG	lib/uCOS-II/src/app_cfg.h	79;"	d
+TRACE_LEVEL_INFO	lib/uCOS-II/src/app_cfg.h	75;"	d
+TRACE_LEVEL_OFF	lib/uCOS-II/src/app_cfg.h	71;"	d
+appTaskLED1	src/main.cpp	/^static void appTaskLED1(void *pdata) {$/;"	f	file:
+appTaskLED1Stk	src/main.cpp	/^static OS_STK appTaskLED1Stk[APP_TASK_LED1_STK_SIZE];$/;"	v	file:
+appTaskLED2	src/main.cpp	/^static void appTaskLED2(void *pdata) {$/;"	f	file:
+appTaskLED2Stk	src/main.cpp	/^static OS_STK appTaskLED2Stk[APP_TASK_LED2_STK_SIZE];$/;"	v	file:
+main	src/main.cpp	/^int main() {$/;"	f
+os_event	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_event {$/;"	s
+os_flag_grp	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_flag_grp {                \/* Event Flag Group                                        *\/$/;"	s
+os_flag_node	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_flag_node {               \/* Event Flag Wait List Node                               *\/$/;"	s
+os_mbox_data	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_mbox_data {$/;"	s
+os_mem	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_mem {                     \/* MEMORY CONTROL BLOCK                                    *\/$/;"	s
+os_mem_data	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_mem_data {$/;"	s
+os_mutex_data	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_mutex_data {$/;"	s
+os_q	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_q {                       \/* QUEUE CONTROL BLOCK                                     *\/$/;"	s
+os_q_data	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_q_data {$/;"	s
+os_sem_data	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_sem_data {$/;"	s
+os_stk_data	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_stk_data {$/;"	s
+os_tcb	lib/uCOS-II/src/ucos_ii.h	/^typedef struct os_tcb {$/;"	s
+os_tmr	lib/uCOS-II/src/ucos_ii.h	/^typedef  struct  os_tmr {$/;"	s
+os_tmr_wheel	lib/uCOS-II/src/ucos_ii.h	/^typedef  struct  os_tmr_wheel {$/;"	s
+taskPriorities_t	src/main.cpp	/^} taskPriorities_t;$/;"	t	typeref:enum:__anon1	file:
