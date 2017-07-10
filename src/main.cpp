@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <stdint.h>
 #include "mbed.h"
 #include "ucos_ii.h"
 
@@ -40,6 +41,8 @@ static void appTaskLED2(void *pdata);
 *********************************************************************************************************
 */
 
+OS_EVENT *led1Done;
+OS_EVENT *led2Done;
 
 /*
 *********************************************************************************************************
@@ -62,6 +65,9 @@ int main() {
                (OS_STK *)&appTaskLED2Stk[APP_TASK_LED2_STK_SIZE - 1],
                APP_TASK_LED2_PRIO);
 
+  led1Done = OSSemCreate(0);
+  led2Done = OSSemCreate(1);
+
 
   /* Start the OS */
   OSStart();
@@ -78,27 +84,31 @@ int main() {
 
 static void appTaskLED1(void *pdata) {
   DigitalOut led1(LED1);
-  DigitalOut led2(LED2);
+  uint8_t osStatus;
 
   /* Start the OS ticker -- must be done in the highest priority task */
   SysTick_Config(SystemCoreClock / OS_TICKS_PER_SEC);
 
-  led1 = 0;
-  led2 = 1;
   /* Task main loop */
   while (true) {
-    led1 = !led1;
-    led2 = !led2;
+    OSSemPend(led2Done, 0, &osStatus);
+    led1 = 1;
     OSTimeDlyHMSM(0,0,0,500);
+    led1 = 0;
+    osStatus = OSSemPost(led1Done);
   }
 }
 
 static void appTaskLED2(void *pdata) {
   DigitalOut led2(LED2);
+  uint8_t osStatus;
 
   while (true) {
-    //led2 = !led2;
+    OSSemPend(led1Done, 0, &osStatus);
+    led2 = 1;
     OSTimeDlyHMSM(0,0,0,500);
+    led2 = 0;
+    osStatus = OSSemPost(led2Done);
   }
 }
 
